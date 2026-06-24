@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: linear-gradient(180deg, #e0e7ff 0%, #8196c0 320px);
+  background-attachment: fixed;
+  color: #1a1a1a;
+}
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  text-align: center;
+  color: #1a1a1a;
+}
+
+h2 {
+  color: #1a1a1a;
+}
+
+button {
+  padding: 8px 14px;
+  margin: 4px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  color: #1a1a1a;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #f0f0f0;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 14px;
+  color: #1a1a1a;
+  background: #fff;
+}
+
+label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.controls input {
+  flex: 1;
+}
+
+.controls select {
+  width: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0 0 6px;
+  color: #1a1a1a;
+}
+
+.card p {
+  color: #555;
+}
+
+.card-buttons {
+  margin-top: 12px;
+}
