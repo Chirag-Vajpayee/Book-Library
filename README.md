@@ -115,7 +115,7 @@ See `backend/.env.example` for the required variables:
 
 ## Challenges Faced
 
-It had been a while since I worked with the MERN stack. My previous role was Java for backend and C#/.NET for frontend, so getting back into JavaScript-based full-stack development took some re-orientation. The biggest hurdle on the frontend was wiring the data flow correctly — fetching from the API with `useEffect`, managing loading and error states, and getting the list to refresh after adding a book (solved using a `key` prop to remount the list component). Once the pattern clicked, the rest of the CRUD screens followed the same structure.
+It had been a while since I worked with the MERN stack. My previous role was Java for backend and C#/.NET for frontend, so getting back into JavaScript based full stack development took some re orientation. The biggest hurdle on the frontend was wiring the data flow correctly fetching from the API with `useEffect`, managing loading and error states  and getting the list to refresh after adding a book (solved using a `key` prop to remount the list component). Once the pattern clicked the rest of the CRUD screens followed the same structure.
 
 ## Time Spent
 
