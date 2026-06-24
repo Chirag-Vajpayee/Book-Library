@@ -1,6 +1,6 @@
 # Book Library - MERN Stack Application
 
-A full-stack book library management application built with MongoDB, Express, React, and Node.js. Users can browse, add, edit, view, and delete books, with search and genre filtering.
+A full-stack book library management application built with MongoDB, Express, React, and Node.js. Users can browse, add, edit, view and delete books, with search and genre filtering.
 
 ## Features
 
@@ -110,8 +110,8 @@ The frontend will run on `http://localhost:5173` (or whichever port Vite picks).
 ## Environment Variables
 
 See `backend/.env.example` for the required variables:
-- `MONGO_URI` — Your MongoDB connection string
-- `PORT` — Port for the backend server (defaults to 5000)
+- `MONGO_URI` Your MongoDB connection string
+- `PORT` Port for the backend server (defaults to 5000)
 
 ## Challenges Faced
 
